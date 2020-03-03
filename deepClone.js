@@ -1,4 +1,4 @@
-export default const deepClone = input => {
+const deepClone = input => {
 	if (input === null){
   	return null;
   }
@@ -15,3 +15,5 @@ export default const deepClone = input => {
 	});
   return output;
 }
+
+export default deepClone;
